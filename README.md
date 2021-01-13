@@ -51,11 +51,13 @@ Finally, use the testing data to evaluate each model and compare the performance
 Use the above to answer the following:
 
 > Which model has a lower loss?
->
-> Which model tracks the actual values better over time?
->
-> Which window size works best for the model?
+     The "closing model" has a lower loss. 
 
+> Which model tracks the actual values better over time?
+     The "closing model" tracks the actual values more accurately over time. 
+
+> Which window size works best for the model?
+     A window size of 10 provides the most accurate results, as it takes a longer time period into consideration for the predictions. 
 - - -
 
 ### Resources
